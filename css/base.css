@@ -2,3 +2,55 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(209, 184, 103);
+}
+.cabecalho{
+    width: 100%;
+    height: 150px;
+    background: url('../galeria/background/vilage.jpg') no-repeat center;
+    background-size: 180%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.title{
+    margin: auto;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    text-shadow: 3px 3px rgb(27, 27, 27);
+    text-decoration: none;
+}
+.lista-menu{
+    width: 50%;
+    margin: 15px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.item{
+    width: 90%;
+    text-align: center;
+    margin: 5px auto;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(59, 37, 3);
+    background-color: rgb(255, 236, 127);
+    border-radius: 16px;
+}
+.monster-list{
+    width: 90%;
+    margin: 15px auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.monster-button{
+    margin: 5px;
+}
+.icon-monster{
+    width: 100px;
+}
