@@ -33,6 +33,10 @@
                     <p>Gargwa</p>
                 </button>
                 <button class="monster-button">
+                    <img src="../galeria/icons/monster/bulfango.png" alt="" class="icon-monster">
+                    <p>Bulfango</p>
+                </button>
+                <button class="monster-button">
                     <img src="../galeria/icons/monster/jaggi.png" alt="" class="icon-monster">
                     <p>Jaggi</p>
                 </button>
@@ -56,6 +60,7 @@
                     <img src="../galeria/icons/monster/delex.png" alt="" class="icon-monster">
                     <p>Delex</p>
                 </button>
+
             </div>
 
             <h3>Monstros Grandes</h3>
@@ -111,9 +116,21 @@
                 </button>
             </div>
         </nav>
-        <div>
 
+        <div id="select-monster">
+            <h3 id="nome_monster">Monster-select</h3>
+            <img src="../galeria/img/altaroth-01.jpg" alt="">
+            <button onclick="monster_select()">
+                teste
+            </button>
+            <div>
+                <p id="classe-monster"></p>
+                <p id="elementos"></p>
+                <p id="doencas"></p>
+                <table id="fraquesas"></table>
+            </div>
         </div>
     </main>
 </body>
+    <script src="../scripts/monstros.js"></script>
 </html>

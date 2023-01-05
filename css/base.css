@@ -57,6 +57,13 @@ body{
 }
 
 
+#fraquesas{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+
 
 .titulo-info-quest{
     margin: 15px auto;
