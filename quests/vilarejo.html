@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <title>Acampamento do Caçador - Monstros</title>
+</head>
+<body onload="star()">
+    <header class="cabecalho">
+        <h1 class="title"><a href="../index.html" class="title">Acampamento do Caçador</a></h1>
+    </header>
+    <main class="principal">
+        <h2>Quest's do Vilarejo</h2>
+        
+    
+        <button onclick="show1starvilage()" class="bt-quest" id="quest1bt">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <p id="txtbt1">Mostrar Quests 1 Estrela</p>
+        </button>
+        
+        <div id="quest-1star" style="display: none;">
+            <h3 class="titulo-info-quest">Quest -- 1 -- estrela</h3>
+            <div class="card-quest">
+                <h4 class="nome-quest">Harvest 'Shroom</h4>
+                <p class="info-quest">1/6</p>
+                <img src="../galeria/ui/sol32.png" alt="" class="hora-quest">
+                <p class="info-quest">ContractFee: 0z</p>
+                <p class="info-quest">Reward: 300z</p>
+                <div class="detalhe-quest">
+                    <img src="../galeria/ui/quest.jpg" alt="" class="icon-quest">
+                    <a href="#">Mountain Stream</a>
+                    <div>
+                        <a href="#">Jaggi</a>
+                        <a href="#">Gargwa</a>
+                    </div>
+                </div>
+                <p class="objetivo-quest">Objetivo:</p>
+                <p class="descr-quest">Collect 10 Special Mushrooms</p>
+            </div>
+
+            <div class="card-quest">
+                <h4 class="nome-quest">Prescription Pick-Up</h4>
+                <p class="info-quest">2/6</p>
+                <img src="../galeria/ui/sol32.png" alt="" class="hora-quest">
+                <p class="info-quest">ContractFee: 0z</p>
+                <p class="info-quest">Reward: 300z</p>
+                <div class="detalhe-quest">
+                    <img src="../galeria/ui/quest.jpg" alt="" class="icon-quest">
+                    <a href="#">Mountain Stream</a>
+                    <div>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/kelbi.png" alt="" class="icon-quest-monster">
+                            <p>Kelbi</p>
+                        </a>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/jaggi.png" alt="" class="icon-quest-monster">
+                            <p>Jaggi</p>
+                        </a>
+                    </div>
+                </div>
+                <p class="objetivo-quest">Objetivo:</p>
+                <p class="descr-quest">Deliver 3 Kelbi Horns</p>
+            </div>
+
+            <div class="card-quest key-quest">
+                <h4 class="nome-quest">Jaggi Takedown</h4>
+                <p class="info-quest">3/6</p>
+                <img src="../galeria/ui/sol32.png" alt="" class="hora-quest">
+                <p class="info-quest">ContractFee: 0z</p>
+                <p class="info-quest">Reward: 300z</p>
+                <p class="info-quest">Key Quest</p>
+                <div class="detalhe-quest">
+                    <img src="../galeria/icons/monster/jaggi.png" alt="" class="icon-quest">
+                    <a href="#">Mountain Stream</a>
+                    <div>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/great-jaggi.png" alt="" class="icon-quest-monster">
+                            <p>Great Jaggi</p>
+                        </a>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/jaggi.png" alt="" class="icon-quest-monster">
+                            <p>Jaggi</p>
+                        </a>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/jaggia.png" alt="" class="icon-quest-monster">
+                            <p>Jaggia</p>
+                        </a>
+                    </div>
+                </div>
+                <p class="objetivo-quest">Objetivo:</p>
+                <p class="descr-quest">Hunt 5 Jaggi</p>
+                
+            </div>
+
+            <div class="card-quest key-quest">
+                <h4 class="nome-quest">Bully The Bulfango</h4>
+                <p class="info-quest">4/6</p>
+                <img src="../galeria/ui/sol32.png" alt="" class="hora-quest">
+                <p class="info-quest">ContractFee: 0z</p>
+                <p class="info-quest">Reward: 300z</p>
+                <p class="info-quest">Key Quest</p>
+                <div class="detalhe-quest">
+                    <img src="../galeria/icons/monster/bulfango.png" alt="" class="icon-quest">
+                    <a href="#">Mountain Stream</a>
+                    <div>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/bulfango.png" alt="" class="icon-quest-monster">
+                            <p>Bulfango</p>
+                        </a>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/jaggi.png" alt="" class="icon-quest-monster">
+                            <p>Jaggi</p>
+                        </a>
+                    </div>
+                </div>
+                <p class="objetivo-quest">Objetivo:</p>
+                <p class="descr-quest">Hunt 3 Bulfango</p>
+            </div>
+
+            <div class="card-quest key-quest">
+                <h4 class="nome-quest">Harbinger Of Terror</h4>
+                <p class="info-quest">5/6</p>
+                <img src="../galeria/ui/lua32.png" alt="" class="hora-quest">
+                <p class="info-quest">ContractFee: 0z</p>
+                <p class="info-quest">Reward: 300z</p>
+                <p class="info-quest">Key Quest</p>
+                <div class="detalhe-quest">
+                    <img src="../galeria/ui/quest.jpg" alt="" class="icon-quest">
+                    <a href="#">Mountain Stream</a>
+                    <div>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/jaggi.png" alt="" class="icon-quest-monster">
+                            <p>Jaggi</p>
+                        </a>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/altaroth.png" alt="" class="icon-quest-monster">
+                            <p>Altaroth</p>
+                        </a>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/arzuros.jpg" alt="" class="icon-quest-monster">
+                            <p>Arzuros</p>
+                        </a>
+                    </div>
+                </div>
+                <p class="objetivo-quest">Objetivo:</p>
+                <p class="descr-quest">Collect 5 Royal Honey</p>
+            </div>
+
+            <div class="card-quest urgent-quest">
+                <h4 class="nome-quest">Blue Bear: Arzuros</h4>
+                <p class="info-quest">6/6</p>
+                <img src="../galeria/ui/lua32.png" alt="" class="hora-quest">
+                <p class="info-quest">ContractFee: 200z</p>
+                <p class="info-quest">Reward: 1.200z</p>
+                <p class="info-quest">Urgent Quest</p>
+                <div class="detalhe-quest">
+                    <img src="../galeria/icons/monster/arzuros.jpg" alt="" class="icon-quest">
+                    <a href="#">Mountain Stream</a>
+                    <div>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/jaggi.png" alt="" class="icon-quest-monster">
+                            <p>Jaggi</p>
+                        </a>
+                        <a href="#">
+                            <img src="../galeria/icons/monster/gargwa.png" alt="" class="icon-quest-monster">
+                            <p>Gargwa</p>
+                        </a>
+                    </div>
+                </div>
+                <p class="objetivo-quest">Objetivo:</p>
+                <p class="descr-quest">Hunter Arzuros</p>
+            </div>
+
+        </div>
+
+
+        <button onclick="show2starvilage()" class="bt-quest" id="quest1bt">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <p id="txtbt1">Mostrar Quests 2 Estrela</p>
+        </button>
+
+
+        <button onclick="show2starvilage()" class="bt-quest" id="quest1bt">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <p id="txtbt1">Mostrar Quests 3 Estrela</p>
+        </button>
+
+
+        <button onclick="show2starvilage()" class="bt-quest" id="quest1bt">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <p id="txtbt1">Mostrar Quests 4 Estrela</p>
+        </button>
+
+        <button onclick="show2starvilage()" class="bt-quest" id="quest1bt">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <p id="txtbt1">Mostrar Quests 5 Estrela</p>
+        </button>
+
+        <button onclick="show2starvilage()" class="bt-quest" id="quest1bt">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <img src="../galeria/ui/estrela32.png" alt="" class="estrela">
+            <p id="txtbt1">Mostrar Quests 6 Estrela</p>
+        </button>
+
+    </main>
+</body>
+
+    <script src="../scripts/efects.js"></script>
+    <script src="../scripts/principal.js"></script>
+</html>
