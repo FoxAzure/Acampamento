@@ -16,14 +16,20 @@
         <nav class="monster-list">
             <h3>Monstros Pequenos</h3>
             <div>
-                <button class="monster-button">
-                    <img src="../galeria/icons/monster/altaroth.png" alt="" class="icon-monster">
-                    <p>Altaroth</p>
-                </button>
-                <button class="monster-button">
-                    <img src="../galeria/icons/monster/bnahabra.png" alt="" class="icon-monster">
-                    <p>Bnahabra</p>
-                </button>
+                <a href="#select-monster">
+                    <button class="monster-button" onclick="monster_select(0)">
+                        <img src="../galeria/icons/monster/altaroth.png" alt="" class="icon-monster">
+                        <p>Altaroth</p>
+                    </button>
+                </a>
+                <a href="#select-monster">
+                    <button class="monster-button" onclick="monster_select(1)">
+                        <img src="../galeria/icons/monster/bnahabra.png" alt="" class="icon-monster">
+                        <p>Bnahabra</p>
+                    </button>
+                </a>
+
+                
                 <button class="monster-button">
                     <img src="../galeria/icons/monster/anteka.png" alt="" class="icon-monster">
                     <p>Anteka</p>
@@ -119,17 +125,45 @@
 
         <div id="select-monster">
             <h3 id="nome_monster">Monster-select</h3>
-            <img src="../galeria/img/altaroth-01.jpg" alt="">
-            <button onclick="monster_select()">
-                teste
-            </button>
+            <img src="" alt="" id="img_monster_select">
             <div>
                 <p id="classe-monster"></p>
                 <p id="elementos"></p>
                 <p id="doencas"></p>
                 <table id="fraquesas"></table>
+                <h3>Low Rank</h3>
+                <table class="tabela_itens">
+                    <thead>
+                        <tr>
+                            <td>Item</td>
+                            <td>%</td>
+                        </tr>
+                    </thead>
+                    <tbody id="droplist_low">
+
+                    </tbody>
+                </table>
+
+                <h3>High Rank</h3>
+                <table class="tabela_itens">
+                    <thead>
+                        <tr>
+                            <td>Item</td>
+                            <td>%</td>
+                        </tr>
+                    </thead>
+                    <tbody id="droplist_high">
+
+                    </tbody>
+                </table>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </main>
 </body>
     <script src="../scripts/monstros.js"></script>
