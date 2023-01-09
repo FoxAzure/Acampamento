@@ -62,6 +62,141 @@ var lista_monstros = [
         drophigh: [9,6,7,8,3,4],
         ratedrophigh: [35,6,25,10,7,17]
         
+    },
+    {
+        id: 2, 
+        nome: "Anteka", 
+        classe: "Neopteron",
+        img: "../galeria/img/anteka.jpeg",
+        elementos: [],
+        doencas: [4,2],
+        fraquezasE: [1,2,3],
+        fraquezasD: [1],
+        droplow: [],
+        ratedroplow: [],
+        drophigh: [],
+        ratedrophigh: []
+        
+    },
+    {
+        id: 3, 
+        nome: "Gargwa", 
+        classe: "Neopteron",
+        img: "../galeria/img/gargwa.png",
+        elementos: [],
+        doencas: [4,2],
+        fraquezasE: [1,2,3],
+        fraquezasD: [1],
+        droplow: [],
+        ratedroplow: [],
+        drophigh: [],
+        ratedrophigh: []
+        
+    },
+    {
+        id: 4, 
+        nome: "Bulfango", 
+        classe: "Neopteron",
+        img: "../galeria/img/bulfango.jpeg",
+        elementos: [],
+        doencas: [4,2],
+        fraquezasE: [1,2,3],
+        fraquezasD: [1],
+        droplow: [],
+        ratedroplow: [],
+        drophigh: [],
+        ratedrophigh: []
+        
+    },
+    {
+        id: 5, 
+        nome: "Jaggi", 
+        classe: "Neopteron",
+        img: "../galeria/img/jaggi.jpeg",
+        elementos: [],
+        doencas: [4,2],
+        fraquezasE: [1,2,3],
+        fraquezasD: [1],
+        droplow: [],
+        ratedroplow: [],
+        drophigh: [],
+        ratedrophigh: []
+        
+    },
+    {
+        id: 6, 
+        nome: "Jaggia", 
+        classe: "Neopteron",
+        img: "../galeria/img/jaggia.jpeg",
+        elementos: [],
+        doencas: [4,2],
+        fraquezasE: [1,2,3],
+        fraquezasD: [1],
+        droplow: [],
+        ratedroplow: [],
+        drophigh: [],
+        ratedrophigh: []
+        
+    },
+    {
+        id: 7, 
+        nome: "Wroggi", 
+        classe: "Neopteron",
+        img: "../galeria/img/wroggi.jpeg",
+        elementos: [],
+        doencas: [4,2],
+        fraquezasE: [1,2,3],
+        fraquezasD: [1],
+        droplow: [],
+        ratedroplow: [],
+        drophigh: [],
+        ratedrophigh: []
+        
+    },
+    {
+        id: 8, 
+        nome: "Baggi", 
+        classe: "Neopteron",
+        img: "../galeria/img/baggi.jpg",
+        elementos: [],
+        doencas: [4,2],
+        fraquezasE: [1,2,3],
+        fraquezasD: [1],
+        droplow: [],
+        ratedroplow: [],
+        drophigh: [],
+        ratedrophigh: []
+        
+    },
+    {
+        id: 9, 
+        nome: "Kelbi", 
+        classe: "Neopteron",
+        img: "../galeria/img/kelbi.jpeg",
+        elementos: [],
+        doencas: [4,2],
+        fraquezasE: [1,2,3],
+        fraquezasD: [1],
+        droplow: [],
+        ratedroplow: [],
+        drophigh: [],
+        ratedrophigh: []
+        
+    },
+    {
+        id: 10, 
+        nome: "Delex", 
+        classe: "Neopteron",
+        img: "../galeria/img/delex.jpeg",
+        elementos: [],
+        doencas: [4,2],
+        fraquezasE: [1,2,3],
+        fraquezasD: [1],
+        droplow: [],
+        ratedroplow: [],
+        drophigh: [],
+        ratedrophigh: []
+        
     }
 ]
 
